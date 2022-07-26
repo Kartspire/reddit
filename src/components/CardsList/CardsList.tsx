@@ -7,6 +7,7 @@ export function CardsList() {
     <ul className={styles.cardsList}>
       <Card />
       <Card />
+      <Card />
     </ul>
   );
 }

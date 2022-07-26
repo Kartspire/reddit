@@ -26,7 +26,7 @@
   border-radius: 3px;
   background-color: var(--white);
 }
-.dropdown li {
+.dropdown button {
   display: flex;
   align-items: center;
   padding: 7px 20px;
@@ -40,13 +40,9 @@
 .dropdown li:not(:last-child) {
   border-bottom: 1px solid var(--greyEC);
 }
-.dropdown li:last-child {
-  justify-content: center;
-  color: var(--grey66);
-  background: var(--greyD9);
-}
 
 .closeButton {
+  justify-content: center;
   background-color: var(--greyD9);
   padding: 12px 23px;
   border-radius: 0 0 3px 3px;

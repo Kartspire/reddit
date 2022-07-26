@@ -12,9 +12,6 @@ export function Card() {
       <Preview />
       <Menu />
       <Controls />
-      {/* <div className={styles.preview}></div>
-      <div className={styles.menu}></div>
-      <div className={styles.controls}></div> */}
     </li>
   );
 }

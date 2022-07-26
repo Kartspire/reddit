@@ -1,6 +1,7 @@
 export const CommentsIcon = () => {
   return (
     <svg
+      id='comments'
       width='15'
       height='15'
       viewBox='0 0 15 15'
